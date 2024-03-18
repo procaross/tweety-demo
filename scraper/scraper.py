@@ -15,7 +15,7 @@ auth_token = os.getenv("AUTH_TOKEN")
 app.load_auth_token(auth_token)
 
 # https://twitter.com/kugiwontmiss/status/1768700911134662696
-root_tweet_id = "1768700911134662696"
+root_tweet_id = os.getenv("ROOT_TWEET")
 data_dir = "./data"
 media_dir = "./data/media"
 
