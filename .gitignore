@@ -1,6 +1,6 @@
 .DS_Store
 .idea/
 scraper_env/
-.tw_session
+*.tw_session
 data/
 .env
