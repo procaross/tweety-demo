@@ -11,7 +11,7 @@ load_dotenv()
 wait_time = int(os.getenv("WAIT_TIME", 10))
 
 app = Twitter("session")
-auth_token = "3d22d7b834d45574b53ee07a3616c3e15ac2dfe7"
+auth_token = os.getenv("AUTH_TOKEN")
 app.load_auth_token(auth_token)
 
 # https://twitter.com/kugiwontmiss/status/1768700911134662696
